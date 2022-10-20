@@ -13,25 +13,34 @@
         font-family: Arial, Helvetica, sans-serif ;}
 
         .articulo {height: 50vh;margin: 5%;display: flex; justify-content: center; align-items: center; }
-        h1{ align-items: center;}
+        h1{ align-items: center; justify-content: center;}
+        h2{ justify-content: center; align-self: center; font-family: arial,cursive; font-size: 1em;}
+        .titulo_categoria{ display: flex;align-items: center; justify-content: center;}
     
         .texto_noticia { flex-direction: column;display: flex;justify-content: center;align-items: center;}
         p{width: 50%; ;}
 
         .tabla { height: 50vh; margin: 5%; display: flex; justify-content: center;}
+        thead{ width: 50%;justify-content: stretch;}
     </style>
 
     
 </head>
 <body>
-    <H1>Noticias del mercado</H1>
+    <H1 class="titulo_categoria">Noticias del mercado</H1>
+    <h2><i>La compañía apostará por el negocio de custodia, administración de activos y servicios relacionados con activos alternativos.</i></h2>
     <div class="principal"> 
         <div class="articulo">
             <div class="imagen_noticia"> <img src="img/State-Street-_BL_-_2.jpg" alt="mercado chileno">  </div>
 
             <div class="texto_noticia"> <h1> La banca State Street llega a Chile</h1>  
-            <p> La banca estadounidense aterriza en el mercado de capitales del país: State Street. 
-                La firma asentada en Boston tiene más de 230 años y es uno de los bancos con mayor historia del país norteamericano.</p>
+            <p> <i> La banca estadounidense aterriza en el mercado de capitales del país:</i>  <b> State Street.</b> 
+                La firma asentada en Boston tiene más de 230 años y es uno de los bancos con mayor historia del país norteamericano. <br>
+<br>
+                Al cierre del primer semestre mantenía US$ 38,2 billones (millones de millones) en activos bajo custodia y US$ 3,5 billones (millones de millones) en activos bajo gestión y está presente en más de 100 mercados alrededor del mundo. Cuenta con más de 40 mil empleados.
+<br>
+<br>
+                La operación a nivel local será dirigida por Alberto Menéndez, quien también liderará la firma en Perú desde Santiago. Previamente, se había desempeñado en Credicorp Capital como gerente de distribución.</p>
            </div>
 
         </div>
@@ -73,4 +82,9 @@
 
     
 </body>
+<footer>
+
+
+
+</footer>
 </html>

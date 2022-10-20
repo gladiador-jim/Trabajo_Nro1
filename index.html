@@ -8,9 +8,20 @@
     <title>INDEX
     </title>
 
-    <style> table, tr, th, td { 
-        border: 1 px solid black;} </style>
-        
+    <style>
+        body {background-color:#F1A661;
+        font-family: Arial, Helvetica, sans-serif ;}
+
+        .articulo {height: 50vh;margin: 5%;display: flex; justify-content: center; align-items: center; }
+        h1{font-size: 180 %
+        ;}
+        .texto_noticia { flex-direction: column;display: flex;justify-content: center;align-items: center;}
+        p{width: 50%; ;}
+
+        .tabla { height: 50vh; margin: 5%; display: flex; justify-content: center;}
+    </style>
+
+    
 </head>
 <body>
     <H1>HELLO</H1>
@@ -25,17 +36,31 @@
 
         </div>
         <div class="tabla">
-            <table>
-                <tr class="encabezados">
+            <table border="2px">
+                <thead><tr><th border 2vw >grupo 1 </th> <th>grupo 2</th></tr></thead>
+
+                <thead>
+                <tr>
                     <th>Nombre</th>
                     <th>Apellido</th>
-                    <th>Rut</th>
-                </tr> 
+                    <th>Rut</th>         
+                </tr>  
+                </thead>
+                <tbody>
                 <tr>
-                    <td>Jimmy</td>
-                    <td>Carvallo</td>
-
+                    <td>Contenido1</td>
+                    <td>Contenido1</td>
+                    <td>Contenido1</td>
+                    
                 </tr>
+                <tr>
+                    <td>Contenido1</td>
+                    <td>Contenido1</td>
+                    <td>Contenido1</td>
+                
+                
+                </tr>
+                </tbody>
 
 
             </table>

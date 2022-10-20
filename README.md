@@ -5,4 +5,4 @@ Dentro del Body, se creo un DIV principal y 2 div secundarios con clases diferen
 
 La noticia fue extraida del Diario Financiero https://www.df.cl/mercados/banca-fintech/gigante-de-la-banca-de-estados-unidos-state-street-ingresa-al-mercado
 
-Al comenezar como se menciona se realiza la estructura con html para luego utilizar 
+Al comenzar como se menciona se realiza la estructura con html agregando una class a cada DIV para tener un mejor orden.

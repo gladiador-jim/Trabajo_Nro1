@@ -35,6 +35,10 @@
     margin-bottom: 10px;
     text-align: center;
 }
+.imagen_noticia{
+    margin: 2px;
+    border: solid 2px black;
+}
 
 .tabla{
     margin: auto;

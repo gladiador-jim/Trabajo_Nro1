@@ -9,14 +9,14 @@
     
 .principal{
     margin: auto;
-    margin-top: 50px;
+    margin-top: 30px;
     height: 60vh;
-    width: 100%;
+    width: 98%;
   
 }
 
 .articulo{
-    margin: 10px;
+    margin: 0px;
     width: 100%;
     height:100%;
     display: flex;
@@ -39,12 +39,12 @@
 .tabla{
     margin: auto;
     margin-top: 50px;
-    width: 600px;
+    width: 900px;
 }
 
 table{
     width: 100%;
-    text-align: left;
+    text-align: center;
     background-color: #FFD8A9;
 }
 
@@ -63,6 +63,9 @@ tr:hover td{
     background-color: #15133C;
     color: #FDEEDC;
 }
-
+.tabla h3{
+    margin-bottom: 10px;
+    font-style: italic; 
+    font-size: 20px;}
 
 
